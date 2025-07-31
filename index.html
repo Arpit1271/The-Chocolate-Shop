@@ -4,62 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Chocolate Shop</title>
     <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Chewy&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Roboto:400,700|Trade+Winds&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <ul class="navigation">
-                <li class="nav-item"><a href="">Home</a></li>
-                <li class="nav-item"><a href="">About</a></li>
-                <li class="nav-item"><a href="">Services</a></li>
-                <li class="nav-item"><a href="">Contact Us</a></li>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Shop</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="section-1">
-            <div class="welcome-section">
-                <h1> Welcome to "The choclate Shop"</h1>
-                <p>Exquisite. Timeless. Unforgettable..</p>
-            </div>
-            <div class="border"></div>
-            <div class="items-for-sale">
-                <div class="item">
-                    <h1>Choclate Bars</h1>
-                    <img src="Images/Single-Choclate.jpg" alt="">
-                </div>
-                <div class="item">
-                    <h1>Drinks</h1>
-                    <img src="https://cdn.leonardo.ai/users/f4015810-e153-49a4-bac3-a9c3965f3390/generations/984d5a8e-f7e7-4e38-a4b2-74a13253090a/variations/Default_Wet_rainy_scene_layered_papiermch_style_chocolate_drin_0_984d5a8e-f7e7-4e38-a4b2-74a13253090a_0.png"
-                        alt="">
-
-                </div>
-                <div class="item">
-                    <h1>Coffee</h1>
-                    <img src="https://cdn.leonardo.ai/users/f4015810-e153-49a4-bac3-a9c3965f3390/generations/8ba30e07-788f-4462-abac-f64541f3e086/variations/Default_Eerie_atmosphere_modern_flat_design_chocolate_drinks_i_0_8ba30e07-788f-4462-abac-f64541f3e086_0.png"
-                        alt="">
-
-                </div>
-                <div class="item">
-                    <h1>Cake</h1>
-                    <img src="https://cdn.leonardo.ai/users/f4015810-e153-49a4-bac3-a9c3965f3390/generations/84fc8993-f588-4b56-b2b7-7fa837a2565a/variations/Default_Eerie_atmosphere_modern_flat_design_big_single_cake_el_1_84fc8993-f588-4b56-b2b7-7fa837a2565a_0.png"
-                        alt="">
-                </div>
-            </div>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to The Chocolate Shop</h1>
+            <p>Indulge in exquisite, timeless, unforgettable chocolate experiences.</p>
+            <a href="#shop" class="cta-button">Shop Now</a>
         </div>
-        <div class="section-2">
-        </div>
-
     </section>
-</body>
 
+    <section id="shop" class="products-section">
+        <h2>Our Favorites</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="Images/Single-Choclate.jpg" alt="Chocolate Bars">
+                <h3>Chocolate Bars</h3>
+                <p>Rich, creamy, irresistible chocolate bars.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.leonardo.ai/users/f4015810-e153-49a4-bac3-a9c3965f3390/generations/984d5a8e-f7e7-4e38-a4b2-74a13253090a/variations/Default_Wet_rainy_scene_layered_papiermch_style_chocolate_drin_0_984d5a8e-f7e7-4e38-a4b2-74a13253090a_0.png" alt="Drinks">
+                <h3>Chocolate Drinks</h3>
+                <p>Warm up with our delicious chocolate beverages.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.leonardo.ai/users/f4015810-e153-49a4-bac3-a9c3965f3390/generations/8ba30e07-788f-4462-abac-f64541f3e086/variations/Default_Eerie_atmosphere_modern_flat_design_chocolate_drinks_i_0_8ba30e07-788f-4462-abac-f64541f3e086_0.png" alt="Coffee">
+                <h3>Coffee Selection</h3>
+                <p>Perfectly paired coffees for every chocolate lover.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.leonardo.ai/users/f4015810-e153-49a4-bac3-a9c3965f3390/generations/84fc8993-f588-4b56-b2b7-7fa837a2565a/variations/Default_Eerie_atmosphere_modern_flat_design_big_single_cake_el_1_84fc8993-f588-4b56-b2b7-7fa837a2565a_0.png" alt="Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Moist and decadent cakes to celebrate every occasion.</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">© 2025 The Chocolate Shop. All rights reserved. Powered by <a href="">ArpitDev</a></div>
+    </footer>
+</body>
 </html>
